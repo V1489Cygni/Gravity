@@ -1,0 +1,54 @@
+mode=v
+
+G=5000
+
+normalize=true
+
+# Objects
+
+num=4
+
+1.x=0
+1.y=0
+1.vx=0
+1.vy=0
+1.m=-100
+1.r=20
+
+2.x=100
+2.y=0
+2.vx=0
+2.vy=0
+2.m=400
+2.r=5
+
+3.x=-100
+3.y=0
+3.vx=0
+3.vy=0
+3.m=400
+3.r=5
+
+4.x=200
+4.y=0
+4.vx=0
+4.vy=170
+4.m=0
+4.r=3
+
+# Solver
+
+solver=R
+step=0.0005
+t=0
+
+# Camera
+
+camera_x=0
+camera_y=0
+camera_scale=1
+
+# Log
+
+file=log.txt
+steps_num=10000
